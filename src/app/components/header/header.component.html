@@ -1,0 +1,119 @@
+<header class="header">
+    <!-- container for navbar -->
+    <div class="container-fluid sc-blue-bg">
+        <div class="row">
+            <div class="col-md-12 pl-5">
+                <nav class="navbar navbar-expand-lg ">
+                    <a class="navbar-brand text-white" href="#">
+                        <img src="../../../assets/images/brand-logo.png" class="brand-logo" alt="Brand-Logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto mt-2">
+                        <li class="nav-item active">
+                          <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Why Us</a>
+                        </li>
+                
+                        <li class="nav-item ml-5">
+                            <button class="btn bg-white sc-quote-btn">
+                                GET A QUOTE
+                            </button>
+                        </li>
+                
+                        <li class="nav-item ml-5">
+                            <button class="btn sc-callback-btn">
+                                CALL BACK
+                            </button>
+                        </li>
+                        
+                      </ul>
+                      
+                    </div>
+                  </nav>
+            </div>
+        </div>        
+    </div>
+<!-- content of header -->
+    <div class="header-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h4 class="text-white">Need Help For Your</h4>
+                    <h1 class="text-white">Next Document</h1>
+                    <p class="text-white">Let Us Aid You In Creating First-Class Documents</p>
+
+                    <button class="btn sc-contactus-header">Contact Us</button>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="discount-logo">
+                        <img src="../../../assets/images/discount.png" alt="Discount">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- input text header bottom nav -->
+        <div class="myNewContainer-fluid mtop">
+            <div class="sc-blue-bglight">
+                <div class="row ">
+                    <div class="col-md-12">
+                        <form name="form" [formGroup]="form">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Name" formControlName="Name" [ngClass]="{'is-invalid':form.get('Name').touched && form.get('Name').invalid}">
+                                        <div class="invalid-feedback">
+                                            <p>Name is Required</p>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Email" formControlName="Email" [ngClass]="{'is-invalid':form.get('Email').touched && form.get('Email').invalid}">
+                                        <div class="invalid-feedback">
+                                            <p>Email is Required</p>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <input type="number" class="form-control" placeholder="Phone Number" minlength="2" formControlName="phonenumber" [ngClass]="{'is-invalid':form.get('phonenumber').touched && form.get('phonenumber').invalid}">
+                                        <div class="invalid-feedback">
+                                            <p>Phone Number is Required</p>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <input type="submit" value="ORDER NOW"  class="sc-ordernow-btn">
+                                        <!-- [disabled]="!form.valid" -->
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+  

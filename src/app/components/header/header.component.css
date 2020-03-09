@@ -1,0 +1,94 @@
+.brand-logo{
+    width: 180px;
+    height: 65px;
+}
+
+.sc-blue-bg{
+    background-color:rgb(22,79,101);
+}
+
+.sc-quote-btn{
+    background-color: #fff;
+    color:#1a5063;
+    font-weight: 500;
+    border-radius: 25px;
+}
+
+.sc-callback-btn{
+    background-color: #de0000;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 25px;
+}
+
+/* navbar setting  */
+
+.navbar-nav .nav-item a {
+    font-size: 20px;
+    padding: 0px 20px 0px 20px;
+}
+
+.navbar-nav .nav-item button {
+    padding: 10px 30px 10px 30px;
+}
+
+.header-body{
+    background-image: url('../../../assets/images/header-bg.png');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px 100px 0px;
+    width: 100%;
+}
+
+.sc-contactus-header{
+    background-color: #de0000;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.sc-ordernow-btn{
+    background-color: #de0000;
+    color: #fff;
+    border-radius: 38px;
+    border: none;
+    padding: 7px;
+    width: 52%;
+}
+
+.discount-logo img{
+    width: 144px;
+    height: 150px;
+    position: relative;
+    top: 84px;
+    left: 65px;
+    margin-left: 104px;
+    margin-top: 17px;
+}
+
+
+.sc-blue-bglight{
+    background-color:rgb(22,79,101, .8);
+    width: 100%;
+    padding: 40px;
+}
+
+.mtop{
+    margin-top: 50px;
+    position: relative;
+    top: 100px;
+}
+
+.margin-zero{
+    margin-left: 0px;
+}
+
+.myNewContainer-fluid{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+

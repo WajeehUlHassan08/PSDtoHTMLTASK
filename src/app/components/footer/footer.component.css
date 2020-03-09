@@ -1,0 +1,36 @@
+
+.sc-blue-bg{
+    background-color:rgb(22,79,101);
+}
+
+.img-wsword-skill img{
+    width: 210px;
+    height: 64px;
+}
+
+.paypal-img img{
+    width: 65px;
+    height: 50px;
+}
+
+.visa-img img{
+    width: 65px;
+    height: 50px;
+}
+
+.mastercard-img img{
+    width: 65px;
+    height: 50px;
+}
+
+hr{
+    border-color: #fff;
+}
+
+.sc-callback-btn{
+    background-color: #de0000;
+    color: #fff;
+    border-radius: 30px;
+    padding: 15px;
+    width: 29%;
+}
